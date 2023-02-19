@@ -1,1 +1,3 @@
-# My-homework
+# My first mini project
+
+call as homework
