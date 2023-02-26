@@ -48,11 +48,5 @@ const jokes = [
   "The best thing about a Boolean is even if you are wrong, you are only off by a bit.",
 ];
 
-const memes = ["memes1.jpg", "meme 2.jpg", "memes3.jpg"];
+const memes = ["memes1.jpg", "meme2.jpg", "memes3.jpg"];
 
-// const memes = document.createElement(""img)
-// img.src = "https://static.thehoneycombers.com/wp-content/uploads/sites/4/2020/03/Best-funny-Coronavirus-memes-2020-Honeycombers-Bali-221.jpg";
-
-// const memes = new Image(100,200);
-
-// img.src = "funny memes 1.jpg";
