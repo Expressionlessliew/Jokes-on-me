@@ -1,8 +1,15 @@
 const btn = document.getElementById("get-joke");
+const button = document.getElementById("get-meme");
+console.log(button);
 
 const jokercontainer = document.querySelector(".joke-content");
+const memecontainer = document.querySelector(".meme-content");
+console.log(memecontainer);
+
+console.log(memecontainer);
 
 btn.addEventListener("click", generatejoke);
+button.addEventListener("click", generatememe);
 
 let joke;
 function generatejoke() {
@@ -10,6 +17,22 @@ function generatejoke() {
   console.log(joke);
 
   jokercontainer.innerHTML = joke;
+}
+
+let meme;
+function generatememe() {
+  meme = memes[Math.floor(Math.random() * memes.length)];
+  console.log(meme);
+
+  const newmemes = document.createElement("img");
+  newmemes.setAttribute("src", meme);
+  clearAll()
+
+  memecontainer.appendChild(newmemes);
+}
+
+function clearAll() {
+  memecontainer.innerHTML = ""
 }
 
 const jokes = [
@@ -25,4 +48,11 @@ const jokes = [
   "The best thing about a Boolean is even if you are wrong, you are only off by a bit.",
 ];
 
-const meme = [];
+const memes = ["memes1.jpg", "meme 2.jpg", "memes3.jpg"];
+
+// const memes = document.createElement(""img)
+// img.src = "https://static.thehoneycombers.com/wp-content/uploads/sites/4/2020/03/Best-funny-Coronavirus-memes-2020-Honeycombers-Bali-221.jpg";
+
+// const memes = new Image(100,200);
+
+// img.src = "funny memes 1.jpg";
