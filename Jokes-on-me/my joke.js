@@ -48,5 +48,5 @@ const jokes = [
   "The best thing about a Boolean is even if you are wrong, you are only off by a bit.",
 ];
 
-const memes = ["memes1.jpg", "meme2.jpg", "memes3.jpg"];
+const memes = ["memes1.jpg", "meme2.jpg", "memes3.jpg","memes4.jpg","memes5.jpg"];
 
