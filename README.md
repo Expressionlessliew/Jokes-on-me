@@ -1,3 +1,5 @@
 # My first mini project
 
-call as homework
+joke generator link :
+
+https://expressionlessliew.github.io/Jokes-on-me/
